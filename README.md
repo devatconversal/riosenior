@@ -7,7 +7,7 @@ Preview van de landingspagina voor Rio Sênior in twee taalversies.
 Ga naar de **GitHub Pages URL** van deze repository:
 
 ```
-https://[gebruikersnaam].github.io/rio-senior-landing/
+https://devatconversal.github.io/rio-senior-landing/
 ```
 
 Daar kan je kiezen tussen de Nederlandse en Portugese versie.
