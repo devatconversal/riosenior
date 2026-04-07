@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rio Sênior — Landing Page Preview</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --gold: #C49A3C;
+  --gold-light: #D4AF5C;
+  --warm-cream: #FAF6EF;
+  --warm-white: #FFFCF7;
+  --text-dark: #2C2418;
+  --text-body: #4A3F32;
+  --text-muted: #7A6E5E;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Source Sans 3', sans-serif;
+  background: linear-gradient(135deg, #3D2E1A 0%, #5C4428 40%, #7A5E3A 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+}
+
+.card {
+  background: var(--warm-white);
+  border-radius: 32px;
+  padding: 60px 48px;
+  max-width: 520px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 40px 80px rgba(0,0,0,0.25);
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin-bottom: 48px;
+}
+
+.label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 20px 32px;
+  border-radius: 16px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.btn-nl {
+  background: var(--text-dark);
+  color: var(--warm-cream);
+}
+
+.btn-nl:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(44, 36, 24, 0.25);
+}
+
+.btn-pt {
+  background: var(--warm-cream);
+  color: var(--text-dark);
+  border-color: rgba(196, 154, 60, 0.25);
+}
+
+.btn-pt:hover {
+  border-color: var(--gold);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(196, 154, 60, 0.15);
+}
+
+.flag {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.footer {
+  margin-top: 40px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="logo">Rio Sênior</div>
+  <div class="subtitle">Landing Page Preview</div>
+
+  <div class="label">Kies een versie / Escolha uma versão</div>
+
+  <div class="buttons">
+    <a href="nl.html" class="btn btn-nl">
+      <span class="flag">🇧🇪</span>
+      Nederlands
+    </a>
+    <a href="pt.html" class="btn btn-pt">
+      <span class="flag">🇧🇷</span>
+      Português
+    </a>
+  </div>
+
+  <div class="footer">
+    Concept preview — Conversal BV
+  </div>
+</div>
+
+</body>
+</html>
